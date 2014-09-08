@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		.input{
+			text-align: center;
+			width: 20px;
+			}
+		.table1{
+			border-collapse: separate;
+			border-spacing:  3px;
+		}
+		.caja{
+			position: relative;
+			left: 402px;
+			width: 147px;
+			
+		}
+		.caja2{
+			position: relative;
+			left: 0px;
+		}
+		.caja3{
+			position: relative;
+			left: 65px;
+			top: -24px;
+		}
+		.caja4{
+			position: relative;
+			left: 136px;
+			top: -49px
+		}
+		.caja5{
+			position: relative;
+			left: 0px;
+			top: -45px;
+		}
+		.caja6{
+			position: relative;
+			left: 65px;
+			top: -70px;
+		}
+		.caja7{
+			position: relative;
+			left: 136px;
+			top:  -94px;
+		}
+		.caja8{
+			position: relative;
+			left: 0px;
+			top:  -88px;
+		}
+		.caja9{
+			position: relative;
+			left: 65px;
+			top:  -114px;
+		}
+		.caja10{
+			position: relative;
+			left: 136px;
+			top:  -140px;
+		}
+		
+		.caja12{
+			position: relative;
+			left: -59px;
+			top: -195px;
+		}
+		.caja13{
+			position: relative;
+			left: -59px;
+			top: -188px;
+		}
+
+		
+		.caja15{
+			position: relative;
+			left: 65px;
+			top: -182px;
+		}
+		.caja16{
+			position: relative;
+			left: 205px;
+			top: -240px;
+		}
+		.button1{
+			position: relative;
+			left: 63px;
+			top: -196px;
+		}
+	</style>
+	<meta charset="UTF-8">
+	<script type="text/javascript"> 
+
+		function suma1() 
+		{ 
+			var n4= document.getElementById("n4").value; 
+			var n5= document.getElementById("n5").value; 
+			var n6= document.getElementById("n6").value; 
+			var resultado1= (parseInt(n4)+parseInt(n5)+parseInt(n6)); 
+			document.getElementById('resultado_suma1').value = (resultado1); 
+		} 
+
+
+		function suma2() 
+		{ 
+			var n3= document.getElementById("n3").value; 
+			var n5= document.getElementById("n5").value; 
+			var n7= document.getElementById("n7").value; 
+			var resultado2= (parseInt(n3)+parseInt(n5)+parseInt(n7)); 
+			document.getElementById('resultado_suma2').value = (resultado2); 
+		} 
+		function suma3() 
+		{ 
+			var n2= document.getElementById("n2").value; 
+			var n5= document.getElementById("n5").value; 
+			var n8= document.getElementById("n8").value; 
+			var resultado3= (parseInt(n2)+parseInt(n5)+parseInt(n8)); 
+			document.getElementById('resultado_suma3').value = (resultado3); 
+		} 
+		function suma4() 
+		{ 
+			var n1= document.getElementById("n1").value; 
+			var n5= document.getElementById("n5").value; 
+			var n9= document.getElementById("n9").value; 
+			var resultado4= (parseInt(n1)+parseInt(n5)+parseInt(n9)); 
+			document.getElementById('resultado_suma4').value = (resultado4); 
+		} 
+
+	</script>
+	<title>cubo magico</title>
+</head>
+<body>
+	<div class="caja" >
+		<p>Cubo_magico</p>
+		<div class="caja2"><input name="n1" type="text" id="n1" size="4" maxlength="2" ></div>
+		<div class="caja3"><input name="n2" type="text" id="n2" size="4" maxlength="2" ></div>
+		<div class="caja4"><input name="n3" type="text" id="n3" size="4" maxlength="2" ></div>
+		<div class="caja5"><input name="n4" type="text" id="n4" size="4" maxlength="2" ></div>
+		<div class="caja6"><input name="n5" type="text" id="n5" size="4" maxlength="2" ></div>
+		<div class="caja7"><input name="n6" type="text" id="n6" size="4" maxlength="2" ></div>
+		<div class="caja8"><input name="n7" type="text" id="n7" size="4" maxlength="2" ></div>
+		<div class="caja9"><input name="n8" type="text" id="n8" size="4" maxlength="2" ></div>
+		<div class="caja10"><input name="n9" type="text" id="n9" size="4" maxlength="2" ></div>
+		<div class="caja12"><input name="resultado1" type="text" id="resultado_suma1" size="2" disabled=""></div>
+		<div class="caja13"><input name="resultado2" type="text" id="resultado_suma2" size="2" disabled=""></div>
+		<div class="caja15"><input name="resultado3" type="text" id="resultado_suma3" size="4" disabled=""></div>
+		<div class="caja16"><input name="resultado5" type="text" id="resultado_suma4" size="4" disabled=""></div>
+		<div class="button1"><input name="suma" type="button" onClick="suma1(), suma2(), suma3(), suma4()" value=" Operar " ></div> 
+	</div>
+</body>
+</html>
