@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<style>
+      td{
+         border-top-color: 10px;
+         border-right-color: 34px;
+         border-bottom-color: 12px;
+         border-left-color: 45px;
+    	 border-color: 67px;
+
+      	}
+
+
+	</style>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+    	<td>
+    		<tr>
+    			Prueba bordes 2
+    		<tr>
+    			Prueba bordes 2
+    		</tr>
+    	</td>
+</body>
+</html>         

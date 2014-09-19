@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style>
+	td{
+     text-align: center ;
+     text-decoration: underline;
+    white-space: normal;
+    letter-spacing: normal ;
+    text-transform: capitalize;
+    text-indent: ;
+
+
+	}
+
+
+</style>	
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<td>
+		
+		<tr>
+			texto
+
+		</tr>
+		<tr>
+			texto prueba
+			
+		</tr>
+	</td>
+	
+</body>
+</html>

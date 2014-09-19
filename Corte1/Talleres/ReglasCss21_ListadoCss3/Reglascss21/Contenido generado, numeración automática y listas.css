@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+	td{
+      content: none;
+      quotes: none;
+      counter-reset: none;
+      counter-increment: 23px;
+      list-style-type: 23px;
+      list-style-image: inside;
+      list-style: none; 
+
+
+	}
+
+
+</style>	
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<td>
+		<tr>
+			Contenido generado, numeración automática y listas
+		</tr>
+        <tr>
+        	Contenido generado, numeración automática y listas
+
+        </tr>
+	</td>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+td{
+ margin-top: 2px; 
+ margin-right: ´2px;
+ margin-left: 2px;
+ margin-bottom: 2px;
+}	
+
+
+</style>	
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<td>
+	<tr>
+		<p>Prueba</p>
+	</tr>
+		<tr>
+		<p>Prueba</p>
+	</tr>
+</td>	
+</body>
+</html>

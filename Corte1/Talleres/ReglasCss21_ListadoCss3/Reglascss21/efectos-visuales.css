@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<style>
+      td{
+         overflow: hidden;
+         clip: 23px;
+         visibility: hidden;
+
+
+      	}
+
+
+	</style>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+    	<td>
+    		<tr>
+    			Efectos visuales
+    		</tr>
+    		<tr>
+    			Efectos visuales
+    		</tr>
+    	</td>
+</body>
+</html>

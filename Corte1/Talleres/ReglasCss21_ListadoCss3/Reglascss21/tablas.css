@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+	td{
+		caption-side: top ;
+		table-layout: auto;
+		border-collapse: separate;
+		empty-cells: hide;
+	}
+
+
+</style>	
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<td>
+		
+		<tr>
+			tablas prueba
+		</tr>
+		<tr>
+			tablas prueba
+
+		</tr>
+	</td>
+</body>
+</html>

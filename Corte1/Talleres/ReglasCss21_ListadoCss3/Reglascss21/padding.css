@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<style>
+      td{
+         padding: 60px;
+         padding-left: 20px;
+         padding-top: 45px;
+         padding-right: 34px;
+         padding-bottom: 12px; 
+
+      	}
+
+
+	</style>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+    	<td>
+    		<tr>
+    			Prueba padding
+    		</tr>
+    		<tr>
+    			Prueba padding
+    		</tr>
+    	</td>
+</body>
+</html>

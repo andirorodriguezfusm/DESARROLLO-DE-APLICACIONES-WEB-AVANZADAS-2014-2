@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<style>
+      td{
+        
+         display: none;
+        position: 3om;
+        top: 5m;
+        right: 45cm;
+        bottom: 20cm;
+        left: 10cm;
+        float: 2.5cm;
+        clear: 5cm;
+        z-index: 10cm;
+        direction: 3px;
+        unicode-bidi: 4cm;
+
+
+      	}
+
+
+	</style>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+    	<td>
+    		<tr>
+    			Modelo de formato visual
+    		</tr>
+    		<tr>
+    			Modelo de formato visual
+    		</tr>
+    	</td>
+</body>
+</html>   
